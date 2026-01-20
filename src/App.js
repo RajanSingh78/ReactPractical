@@ -2,6 +2,7 @@ import { useState } from "react";
 import ProductForm from "./components/ProductForm";
 import ProductTable from "./components/ProductTable";
 import ProductCard from "./components/ProductCard";
+import ProductList from "./components/ProductList";
 
 function App() {
   const [products, setProducts] = useState([]);
