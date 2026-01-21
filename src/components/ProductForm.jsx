@@ -96,7 +96,7 @@ function ProductForm({ products, setProducts, editProduct, setEditProduct }) {
     <div className="card p-3 bg-secondary text-light">
       <h5>{editProduct ? "Edit Product" : "Add Product"}</h5>
 
-      {/* Product Name */}
+      
       <label>
         Product Name <span className="text-danger">*</span>
       </label>
@@ -107,7 +107,7 @@ function ProductForm({ products, setProducts, editProduct, setEditProduct }) {
       />
       {errors.name && <small className="text-danger">{errors.name}</small>}
 
-      {/* Price */}
+      
       <label className="mt-2">
         Price <span className="text-danger">*</span>
       </label>
@@ -119,7 +119,7 @@ function ProductForm({ products, setProducts, editProduct, setEditProduct }) {
       />
       {errors.price && <small className="text-danger">{errors.price}</small>}
 
-      {/* Category */}
+      
       <label className="mt-2">
         Category <span className="text-danger">*</span>
       </label>
@@ -135,7 +135,7 @@ function ProductForm({ products, setProducts, editProduct, setEditProduct }) {
       </select>
       {errors.category && <small className="text-danger">{errors.category}</small>}
 
-      {/* Stock */}
+      
       <label className="mt-2">
         Stock Quantity <span className="text-danger">*</span>
       </label>
@@ -147,14 +147,14 @@ function ProductForm({ products, setProducts, editProduct, setEditProduct }) {
       />
       {errors.stock && <small className="text-danger">{errors.stock}</small>}
 
-      {/* Image */}
+    
       <label className="mt-2">
         Product Image <span className="text-danger">*</span>
       </label>
       <input type="file" className="form-control mb-1" onChange={handleImage} />
       {errors.image && <small className="text-danger">{errors.image}</small>}
 
-      {/* Manual */}
+      
       <label className="mt-2">
         Product Manual (PDF) <span className="text-danger">*</span>
       </label>

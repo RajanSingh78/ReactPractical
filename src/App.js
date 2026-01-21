@@ -23,7 +23,7 @@ function App() {
       </h5>
 
       <div className="row">
-        {/* LEFT FORM */}
+        
         <div className="col-md-4">
           <ProductForm
             products={products}
@@ -33,7 +33,6 @@ function App() {
           />
         </div>
 
-        {/* RIGHT SIDE */}
         <div className="col-md-8">
           <div className="mb-2">
             <button className="btn btn-primary me-2" onClick={() => setView("table")}>
