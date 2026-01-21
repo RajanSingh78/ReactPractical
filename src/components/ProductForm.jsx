@@ -163,7 +163,7 @@ function ProductForm({ products, setProducts, editProduct, setEditProduct }) {
 
       {form.manualName && <small>Selected: {form.manualName}</small>}
 
-      <button className="btn btn-dark mt-3" onClick={submit}>
+      <button className="btn btn-primary mt-3" onClick={submit}>
         {editProduct ? "Update Product" : "Add Product"}
       </button>
     </div>
