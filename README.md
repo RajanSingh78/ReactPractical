@@ -2,6 +2,11 @@
 
 This project is created as part of a React practical test.
 
+
+## 🌐 Live Demo
+- React Practical App: https://reactpractical.onrender.com
+
+
 ## Features
 - Add product with form validation
 - Upload product image (jpg/png)
